@@ -14,7 +14,8 @@ services:
       CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/simplecolonies"
       CF_API_KEY: ${CF_API_KEY}
       MEMORY: "6144M"
-      MOTD: "Salut toi"
+      MOTD: "Serveur Obv1ous - MineColonies+"
+      ICON: https://raw.githubusercontent.com/cprodhomme/obv1ous/refs/heads/develop/app/assets/images/team-ico/black.png
       USE_AIKAR_FLAGS: "true"
       TZ: "Europe/Paris"
       DIFFICULTY: "3"
