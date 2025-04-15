@@ -24,5 +24,8 @@ services:
       ENABLE_WHITELIST: "true"
       WHITELIST: |-
         Cle_61
+      RCON_CMDS_STARTUP:  |-
+        gamerule doFireTick false
+        gamerule playersSleepingPercentage 60
     volumes:
       - "./data:/data"
